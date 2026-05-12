@@ -53,19 +53,64 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 
 *Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
 
-**B.Observation: ( Include your own Table relevant to the Experiment)** (Include Tabulation Part)
+**B.Observation: 
 
-**C.Analysis of Results: (Write your own)**
+| S.No | Gunn Bias Voltage (V) | Gunn Diode Current (mA) |
+| ---- | --------------------- | ----------------------- |
+| 1    | 0.0                   | 30                      |
+| 2    | 0.2                   | 45                      |
+| 3    | 0.4                   | 90                      |
+| 4    | 0.8                   | 150                     |
+| 5    | 1.5                   | 180                     |
+| 6    | 2.5                   | 195                     |
+| 7    | 3.5                   | 180                     |
+| 8    | 4.2                   | 175                     |
+| 9    | 4.5                   | 170                     |
+| 10   | 5.0                   | 160                     |
 
-(Include sample calculations/Display/plot/typical graph)
 
-**D.Conclusions: (Write  your Own)**
+## C.Analysis of Results:
 
-**Precautions:**
+From the observation table, it is seen that the current through the Gunn diode initially increases linearly with the applied bias voltage. As the voltage increases further, the current reaches a **peak value** (known as *Peak Current*) and then **decreases** even though the voltage continues to increase — this region is called the **Negative Resistance Region**. After reaching the *Valley Current*, the current starts to rise again with voltage.
 
-•	Check the connections before switching on the kit.
-•	Connections should be done properly.
-•	Observation should be taken properly.
+This behavior confirms the **negative differential resistance (NDR)** characteristic of the Gunn diode, which is essential for microwave oscillation.
 
-**Result:**
+### Graphical Output
 
+<img width="1020" height="1383" alt="image" src="https://github.com/user-attachments/assets/ea88763c-370a-448c-8601-636948e1ff99" />
+
+#### Observation Analysis
+
+- Up to 2.5 V, current increases linearly.
+- Between 2.5 V and 5 V, current slightly decreases — indicating the negative resistance region.
+- This region is responsible for generating oscillations inside the resonant cavity of the Gunn oscillator.
+
+
+## Sample Calculation
+
+<img width="779" height="279" alt="Screenshot 2025-11-04 085418" src="https://github.com/user-attachments/assets/c198862d-91c0-4a08-ad1b-2887c13a1a81" />
+
+
+## D.Conclusions:
+
+1. The I–V characteristic of the Gunn diode exhibits a negative differential resistance region between approximately 2.5 V and 5 V, confirming its capability for microwave oscillation.  
+2. The peak current and valley current were observed at 195 mA and 175 mA, respectively.  
+3. The calculated negative resistance of about –125 Ω supports the theory of transferred electron effect in Gunn diodes.  
+4. The experiment successfully demonstrates the working principle of a Gunn oscillator and the role of the negative resistance region in generating microwave signals.  
+5. The depth of modulation of the PIN diode can be determined using the difference in dB readings on the VSWR meter corresponding to the maximum and minimum attenuation.
+
+
+## Precautions:
+
+* Check the connections before switching on the kit.
+* Connections should be done properly.
+* Observation should be taken properly.
+
+## Result:
+
+- The I–V characteristics of the Gunn diode were plotted and the negative resistance region was identified.  
+- Peak voltage (Vₚ) = 2.5 V, Valley voltage (Vᵥ) = 5 V.
+- Peak current (Iₚ) = 195 mA, Valley current (Iᵥ) = 175 mA.  
+- Calculated negative resistance (Rₙ) ≈ –125 Ω.
+- The depth of modulation of the PIN diode can be obtained from the dB difference in the VSWR readings.  
+Hence, the experiment is successfully performed, and the negative differential resistance characteristics of the Gunn diode were verified.
