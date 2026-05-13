@@ -17,7 +17,7 @@ Gunn power supply, Gunn oscillator, PIN modulator, Isolator, Frequency Meter, Va
 The Gunn oscillator is base on negative differential conductivity effect in bulk semi- conductors. Gunn diode has two conduction bands separated by an energy gap (greater than thermal agitation energies). When an electron is moved to the satellite energy band, it will have negative differentialmobility. This produces the negative resistance required for the oscillations.
 In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this case the oscillationfrequency is determined by cavity dimension than by diode itself. Although Gunn oscillator can be amplitude-modulated with the bias voltage, separate PIN modulator through is used in this experiment. A square wave modulating signal is applied through the modulator on to the microwave carrier signal.
 
-<img width="445" height="304" alt="image" src="https://github.com/user-attachments/assets/42d87349-4aa0-4730-bb70-9b4897411b7d" />
+<img width="740" height="455" alt="image" src="https://github.com/user-attachments/assets/ece1777e-be68-4b93-9c1b-188dcd11041f" />
 
 **Procedure:**
 
@@ -57,11 +57,11 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 
 | S.No | Gunn Bias Voltage (V) | Gunn Diode Current (mA) |
 | ---- | --------------------- | ----------------------- |
-| 1    | 0.0                   | 30                      |
-| 2    | 0.2                   | 45                      |
-| 3    | 0.4                   | 90                      |
-| 4    | 0.8                   | 150                     |
-| 5    | 1.5                   | 180                     |
+| 1    | 0.2                   | 30                      |
+| 2    | 0.4                   | 45                      |
+| 3    | 0.8                   | 90                      |
+| 4    | 1.5                   | 150                     |
+| 5    | 2.0                   | 180                     |
 | 6    | 2.5                   | 195                     |
 | 7    | 3.5                   | 180                     |
 | 8    | 4.2                   | 175                     |
